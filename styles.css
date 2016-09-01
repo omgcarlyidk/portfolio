@@ -12,8 +12,8 @@ body {
 	height: 100vh;
 	padding-top: 3.25rem;
 	background-image: url("svgs/pattern.svg");
-    	background-repeat: repeat-y;
-    	background-size: 100vh 60px;
+   	background-repeat: repeat-y;
+   	background-size: 100vh 60px;
 }
 
 .content {
