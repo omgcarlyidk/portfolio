@@ -14,19 +14,31 @@ body {
 	background-image: url("svg/pattern.svg");
    	background-repeat: repeat-y;
    	background-size: 100vh 60px;
+   	display: flex;
+   	flex-direction: column;
+}
+
+.content-wrapper {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: row;
 }
 
 .content {
+	flex: 1 0 auto;
 	max-width: 50%;
 	margin: auto;
-	padding-top: 10%;
+	/* padding-top: 10%; */
 	text-align: center;
 }
 
 .hero-message {
 	font-size: 4em;
 	text-align: center;
+}
 
+h4 {
+	padding-left: 3.25rem;
 }
 
 .hero-arrow img {
@@ -35,11 +47,16 @@ body {
 }
 
 .hero-link {
-text-align: center;
-padding-top: 5rem;
+	text-align: center;
+	padding-top: 5rem;
 }
 
 .hero-link a {
 	color: #2a353a;
 }
+
+/*a:hover{
+	color: #FDCFA9;
+	text-decoration: none;
+}*/
 
