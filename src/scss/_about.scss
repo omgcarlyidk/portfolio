@@ -1,6 +1,7 @@
 .bio {
   display: flex;
   margin-top: 174px;
+  padding: 0 136px;
 
   .arrow {
     margin-right: 60px;
@@ -19,7 +20,7 @@
       letter-spacing: 0;
       line-height: 88px;
       margin-bottom: 38px;
-      width: 760px;
+      max-width: 760px;
     }
 
     .resume {
