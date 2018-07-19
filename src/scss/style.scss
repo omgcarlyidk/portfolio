@@ -1,7 +1,26 @@
 @import 'reset';
 @import 'fonts';
 @import 'colors';
+@import 'header';
+@import 'footer';
+@import 'about';
 
 html {
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+main {
+  color: $metal;
+  height: 100vh;
+  padding: 0 136px;
+
+  &.about {
+    background: url('../images/me.png') fixed no-repeat bottom right;
+    // background-size: 59%;
+  }
+
+  &.work {
+    background: url('../images/olly.png') fixed no-repeat bottom right;
+  }
 }

@@ -1,0 +1,45 @@
+.bio {
+  display: flex;
+  margin-top: 174px;
+
+  .arrow {
+    margin-right: 60px;
+    position: relative;
+    top: 32px;
+  }
+
+  .hi {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-size: 64px;
+      font-weight: $medium;
+      color: $metal;
+      letter-spacing: 0;
+      line-height: 88px;
+      margin-bottom: 38px;
+      width: 760px;
+    }
+
+    .resume {
+      color: $metal;
+      font-size: 14px;
+      font-weight: $bold;
+      letter-spacing: 2px;
+      line-height: 22px;
+      margin-bottom: 48px;
+    }
+
+    .social {
+      ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+          margin-right: 11px;
+        }
+      }
+    }
+  }
+}

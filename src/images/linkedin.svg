@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="For-Now" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Home" transform="translate(-346.000000, -689.000000)">
-            <g id="Group-Copy" transform="translate(347.000000, 690.000000)">
-                <circle id="Oval" stroke="#2A363A" stroke-width="2" cx="13" cy="13" r="13"></circle>
-                <path d="M11.0145057,17 L9.14862754,17 L9.14862754,10.9912946 L11.0145057,10.9912946 L11.0145057,17 Z M10.0805624,10.1716518 C9.48404374,10.1716518 9,9.67745536 9,9.08080357 C9,8.48415179 9.48404374,8 10.0805624,8 C10.677081,8 11.1611247,8.48415179 11.1611247,9.08080357 C11.1611247,9.67745536 10.677081,10.1716518 10.0805624,10.1716518 Z M17.9979915,17 L16.1361303,17 L16.1361303,14.075 C16.1361303,13.3779018 16.122071,12.4839286 15.1660344,12.4839286 C14.1959384,12.4839286 14.0473109,13.2412946 14.0473109,14.0247768 L14.0473109,17 L12.1834412,17 L12.1834412,10.9912946 L13.9729971,10.9912946 L13.9729971,11.8109375 L13.9991073,11.8109375 C14.2481589,11.3388393 14.8567284,10.840625 15.7645615,10.840625 C17.6525329,10.840625 18,12.0841518 18,13.6993304 L18,17 L17.9979915,17 Z" id="Shape" fill="#2A363A" fill-rule="nonzero"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <circle cx="13" cy="13" r="13" stroke="#2A363A" stroke-width="2"/>
+    <path fill="#2A363A" fill-rule="nonzero" d="M11.015 17H9.149v-6.009h1.866V17zm-.934-6.828A1.09 1.09 0 0 1 9 9.08a1.081 1.081 0 0 1 2.161 0 1.09 1.09 0 0 1-1.08 1.09zM17.998 17h-1.862v-2.925c0-.697-.014-1.591-.97-1.591-.97 0-1.119.757-1.119 1.54V17h-1.864v-6.009h1.79v.82h.026c.25-.472.858-.97 1.766-.97 1.888 0 2.235 1.243 2.235 2.858V17h-.002z"/>
+  </g>
 </svg>

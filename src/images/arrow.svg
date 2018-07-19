@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>arrow forward</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Home" transform="translate(-143.000000, -277.000000)" fill="#000000">
-            <g id="arrow-forward" transform="translate(136.000000, 277.000000)">
-                <polygon id="Shape" points="20 0 17.8125 2.1875 26.5625 10.9375 7.5 10.9375 7.5 14.0625 26.5625 14.0625 17.8125 22.8125 20 25 32.5 12.5"></polygon>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="25">
+  <path fill="#000" fill-rule="evenodd" d="M13 0l-2.187 2.188 8.75 8.75H.5v3.125h19.063l-8.75 8.75L13 25l12.5-12.5z"/>
 </svg>
