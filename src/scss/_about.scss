@@ -1,35 +1,71 @@
 .bio {
   display: flex;
-  margin-top: 174px;
-  padding: 0 136px;
+  margin-top: 6.2em;
+  padding: 0 3.750em 0 9.7em;
+
+  @media screen and (max-width: 630px) {
+    flex-direction: column;
+    padding: 0 3.750em 0 1.5em;
+  }
 
   .arrow {
     margin-right: 60px;
     position: relative;
     top: 32px;
+
+    @media screen and (max-width: 630px) {
+      margin-right: 0;
+      position: static;
+      transform: rotate(90deg);
+      width: 29px;
+    }
   }
 
   .hi {
-    display: flex;
-    flex-direction: column;
-
     p {
-      font-size: 64px;
+      font-size: 4.5em;
       font-weight: $medium;
       color: $metal;
       letter-spacing: 0;
-      line-height: 88px;
+      line-height: 1.25;
       margin-bottom: 38px;
       max-width: 760px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 3em;
+      }
+
+      @media screen and (max-width: 733px) {
+        font-size: 3.5em;
+      }
+
+      @media screen and (max-width: 868px) {
+        font-size: 4em;
+      }
     }
 
     .resume {
       color: $metal;
+      display: inline-block;
       font-size: 14px;
       font-weight: $bold;
       letter-spacing: 2px;
       line-height: 22px;
       margin-bottom: 48px;
+      transition: color 300ms ease;
+
+      &:hover {
+        color: $peach;
+      }
+    }
+
+    .temp {
+      color: $metal;
+      transition: color 300ms ease;
+
+      &:hover {
+        color: $peach;
+      }
     }
 
     .social {
@@ -39,6 +75,26 @@
 
         li {
           margin-right: 11px;
+
+          a {
+            width: 28px;
+            height: 28px;
+            display: inline-block;
+
+            svg g path, svg g circle {
+              transition: all 300ms ease;
+            }
+
+            &:hover {
+              svg g path {
+                fill: $peach;
+              }
+
+              svg g circle {
+                stroke: $peach;
+              }
+            }
+          }
         }
       }
     }
